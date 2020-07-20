@@ -171,6 +171,7 @@ files:
   - github.com/census-instrumentation/opencensus-proto/gen-go/resource/v1/*.go # gosub
   - github.com/census-instrumentation/opencensus-proto/gen-go/trace/v1/*.go # gosub
   - github.com/cncf/udpa/go/udpa/annotations/*.go # gosub
+  - github.com/cncf/udpa/go/udpa/core/v1/*.go # gosub
   - github.com/cyphar/filepath-securejoin/*.go # gosub
   - github.com/cyphar/filepath-securejoin/vendor/github.com/pkg/errors/*.go # gosub
   - github.com/envoyproxy/go-control-plane/envoy/annotations/*.go # gosub
@@ -282,4 +283,38 @@ files:
   - google.golang.org/grpc/stats/*.go # gosub
   - google.golang.org/grpc/status/*.go # gosub
   - google.golang.org/grpc/tap/*.go # gosub
+  - google.golang.org/protobuf/encoding/protojson/*.go # gosub
+  - google.golang.org/protobuf/encoding/prototext/*.go # gosub
+  - google.golang.org/protobuf/encoding/protowire/*.go # gosub
+  - google.golang.org/protobuf/internal/descfmt/*.go # gosub
+  - google.golang.org/protobuf/internal/descopts/*.go # gosub
+  - google.golang.org/protobuf/internal/detrand/*.go # gosub
+  - google.golang.org/protobuf/internal/encoding/defval/*.go # gosub
+  - google.golang.org/protobuf/internal/encoding/json/*.go # gosub
+  - google.golang.org/protobuf/internal/encoding/messageset/*.go # gosub
+  - google.golang.org/protobuf/internal/encoding/tag/*.go # gosub
+  - google.golang.org/protobuf/internal/encoding/text/*.go # gosub
+  - google.golang.org/protobuf/internal/errors/*.go # gosub
+  - google.golang.org/protobuf/internal/filedesc/*.go # gosub
+  - google.golang.org/protobuf/internal/filetype/*.go # gosub
+  - google.golang.org/protobuf/internal/flags/*.go # gosub
+  - google.golang.org/protobuf/internal/genid/*.go # gosub
+  - google.golang.org/protobuf/internal/impl/*.go # gosub
+  - google.golang.org/protobuf/internal/order/*.go # gosub
+  - google.golang.org/protobuf/internal/pragma/*.go # gosub
+  - google.golang.org/protobuf/internal/set/*.go # gosub
+  - google.golang.org/protobuf/internal/strs/*.go # gosub
+  - google.golang.org/protobuf/internal/version/*.go # gosub
+  - google.golang.org/protobuf/proto/*.go # gosub
+  - google.golang.org/protobuf/reflect/protoreflect/*.go # gosub
+  - google.golang.org/protobuf/reflect/protoregistry/*.go # gosub
+  - google.golang.org/protobuf/runtime/protoiface/*.go # gosub
+  - google.golang.org/protobuf/runtime/protoimpl/*.go # gosub
+  - google.golang.org/protobuf/types/descriptorpb/*.go # gosub
+  - google.golang.org/protobuf/types/known/anypb/*.go # gosub
+  - google.golang.org/protobuf/types/known/durationpb/*.go # gosub
+  - google.golang.org/protobuf/types/known/emptypb/*.go # gosub
+  - google.golang.org/protobuf/types/known/structpb/*.go # gosub
+  - google.golang.org/protobuf/types/known/timestamppb/*.go # gosub
+  - google.golang.org/protobuf/types/known/wrapperspb/*.go # gosub
   - gopkg.in/yaml.v2/*.go # gosub
